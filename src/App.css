@@ -1,6 +1,6 @@
 /* Customize your main colors in :root variables */
 :root {
-  --main-background-color: url("https://deadknight.io/assets/images/background/2.png");
+  --main-background-color: #111213;;
   --card-background-color: #2d2d2d;
   --card-background-lighter-color: #545558;
   --main-text-color:#F7F6F4;
