@@ -485,9 +485,9 @@ const Home = (props: HomeProps) => {
                     <Logo><a href="/" target="_blank" rel="noopener noreferrer"><img alt=""
                                                                                                           src="logo.png"/></a></Logo>
                     <Menu>
-                        <li><a href="/" target="_blank" rel="noopener noreferrer">Twitter</a>
+                        <li><a href="https://twitter.com/DeadKnight_SOL" target="_blank" rel="noopener noreferrer">Twitter</a>
                         </li>
-                        <li><a href="/" target="_blank"
+                        <li><a href="https://discord.gg/deadknightmetaverse" target="_blank"
                                rel="noopener noreferrer">Discord</a></li>
     
                     </Menu>
@@ -504,7 +504,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>Blobbolution</h2>
+                            <h2>Dead Knight NFT</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -578,10 +578,10 @@ const Home = (props: HomeProps) => {
                     </DesContainer>
                     <DesContainer>
 						<Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle>SPECIAL OFFER</GoldTitle></LogoAligner>
-                            <p>Mint 3 Blobbs and get 1 for free!</p>
-                            <p>Mint 5 Blobbs and get 2 for free!</p>
-                            <p>Mint 10 Blobbs and get 3 for free!</p>
+                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
+                            <p>Gen-0 NFTs are the first 9999 NFTs on sale prior to the game release. They are the special characters who make the first generation of the Dead Knight.</p>
+			    <p>For this reason, Gen-0 NFTs have many advantages compared to the later generations. Each Knight is generated from over 225 possible traits spread over 9 layers.</p>
+			    <p>The optimal rarity ranking mechanism generates a unique and completely different Dead Knight NFT from one another.</p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
