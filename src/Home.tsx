@@ -582,6 +582,7 @@ const Home = (props: HomeProps) => {
                             <p>Gen-0 NFTs are the first 9999 NFTs on sale prior to the game release. They are the special characters who make the first generation of the Dead Knight.</p>
 			    <p>For this reason, Gen-0 NFTs have many advantages compared to the later generations. Each Knight is generated from over 225 possible traits spread over 9 layers.</p>
 			    <p>The optimal rarity ranking mechanism generates a unique and completely different Dead Knight NFT from one another.</p>
+							<p><img alt="" src="https://deadknight.io/assets/images/characters/3.gif"/> <img alt="" src="https://deadknight.io/assets/images/characters/6.gif"/> <img alt="" src="https://deadknight.io/assets/images/characters/9.gif"/></p>
                         </Des>
                     </DesContainer>
                 </MintContainer>
