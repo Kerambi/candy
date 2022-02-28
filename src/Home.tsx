@@ -515,7 +515,7 @@ const Home = (props: HomeProps) => {
                               <h3>You have {whitelistTokenBalance} whitelist mint(s) remaining.</h3>}
                             {wallet && isActive &&
                                 /* <p>Total Minted : {100 - (itemsRemaining * 100 / itemsAvailable)}%</p>}*/
-				<h3>TOTAL MINTED : {(itemsRedeemed + 1254)} / {(itemsAvailable + 2122)}</h3>}
+				<h3>TOTAL MINTED : {(itemsRedeemed + 5699)} / {(itemsAvailable + 9899)}</h3>}
                             {wallet && isActive && <BorderLinearProgress variant="determinate"
                                                                          value={57}/>}
                             <br/>
