@@ -504,7 +504,7 @@ const Home = (props: HomeProps) => {
                 <MintContainer>
                     <DesContainer>
                         <NFT elevation={3}>
-                            <h2>Dead Knight NFT</h2>
+                            <h2>Russkiy korabl idi nahuy</h2>
                             <br/>
                             <div><Price
                                 label={isActive && whitelistEnabled && (whitelistTokenBalance > 0) ? (whitelistPrice + " " + priceLabel) : (price + " " + priceLabel)}/><Image
@@ -576,15 +576,7 @@ const Home = (props: HomeProps) => {
                                 Explorer</SolExplorerLink>}
                         </NFT>
                     </DesContainer>
-                    <DesContainer>
-						<Des elevation={2}>
-                            <LogoAligner><img src="logo.png" alt=""></img><GoldTitle></GoldTitle></LogoAligner>
-                            <p>Gen-0 NFTs are the first 9999 NFTs on sale prior to the game release. They are the special characters who make the first generation of the Dead Knight.</p>
-			    <p>For this reason, Gen-0 NFTs have many advantages compared to the later generations. Each Knight is generated from over 225 possible traits spread over 9 layers.</p>
-			    <p>The optimal rarity ranking mechanism generates a unique and completely different Dead Knight NFT from one another.</p>
-							<p><img alt="" src="https://deadknight.io/assets/images/characters/3.gif"/></p>
-                        </Des>
-                    </DesContainer>
+     
                 </MintContainer>
             </MainContainer>
             <Snackbar
